@@ -19,6 +19,10 @@ export const assets = {
 
 export const dummyTrailers = [
     {
+        image: "https://img.youtube.com/vi/wPFeBxt7VXI/maxresdefault.jpg",
+        videoUrl: 'https://www.youtube.com/watch?v=wPFeBxt7VXI'
+    },
+    {
         image: "https://img.youtube.com/vi/y1-w1kUGuz8/maxresdefault.jpg",
         videoUrl: 'https://www.youtube.com/watch?v=y1-w1kUGuz8'
     },
