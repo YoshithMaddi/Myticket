@@ -14,7 +14,8 @@ const movieSchema = new mongoose.Schema(
         casts: {type: Array, required: true},
         vote_average: {type: Number, required: true},
         runtime: {type: Number, required: true},
-    }, {timestamps: true}
+    }, 
+    {timestamps: true}
 )
 
 const Movie = mongoose.model('Movie', movieSchema)
